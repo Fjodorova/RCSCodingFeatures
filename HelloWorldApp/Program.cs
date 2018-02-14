@@ -16,14 +16,15 @@ namespace HelloWorldApp
 
         static void SayHelloToUser()
         {
-            Console.WriteLine("Please enter your name and age:");
+            Console.WriteLine("Please enter your name:");
             string usersName;
             usersName = Console.ReadLine();
-            string usersAge;
-            usersAge = Console.ReadLine();
-            Console.WriteLine("Labdien," + usersName + "Tavs vecums ir:" + usersAge + "!");
+            Console.WriteLine("Please enter your age:");
+            string Age;
+            Age = Console.ReadLine();
+            Age = Age + 100;
+            Console.WriteLine("Labdien," + usersName + "Tavs vecums ir:" + Age + "!");
             Console.ReadLine();
-            
         }
 
         static void SayHello()
