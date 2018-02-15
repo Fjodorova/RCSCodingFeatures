@@ -10,7 +10,44 @@ namespace Calculators
     {
         static void Main(string[] args)
         {
-            CalculateCircleArea();
+            string usersInput = "";
+            while (usersInput != "x")
+            {
+                Console.WriteLine("Please Choose Action");
+                Console.WriteLine("a - Calculate Circle Area");
+                Console.WriteLine("c - Count Two Numbers Together");
+                usersInput = Console.ReadLine();
+                if (usersInput == "a")
+                {
+                    CalculateCircleArea();
+                }
+                else if (usersInput == "c") ;
+                else if (usersInput == "d") ;
+                else if (usersInput == "x")
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Sorry I didn't understand");
+                }
+            }
+        }
+        static void DoesTheNumberDevide()
+        {
+            double dalāmais = GetNumberFromUser("Lūdzu ievadiet dalāmo:");
+            double dalītājs = GetNumberFromUser("Lūdzu ievadiet dalītāju:");
+            double modulo = dalāmais % dalītājs;
+            if (modulo == 0)
+            {
+                Console.WriteLine("Šie skaitļi dalās");
+            }
+
+            else
+            {
+                Console.WriteLine("Nedalās");
+            }
+            
         }
 
         static void CalculateCircleArea()
@@ -23,7 +60,7 @@ namespace Calculators
             Console.ReadLine();
         }
 
-       
+
 
         static void CountTwoNumbersTogether()
         {
