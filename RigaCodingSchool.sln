@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldApp", "HelloWorld
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculators", "Calculators\Calculators.csproj", "{B869C4DC-615A-4AA3-9878-1E293EE643ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersGuessingGame", "NumbersGuessingGame\NumbersGuessingGame.csproj", "{D7CF5201-6B0B-4697-9AA6-59E44F7506DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B869C4DC-615A-4AA3-9878-1E293EE643ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B869C4DC-615A-4AA3-9878-1E293EE643ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B869C4DC-615A-4AA3-9878-1E293EE643ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7CF5201-6B0B-4697-9AA6-59E44F7506DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7CF5201-6B0B-4697-9AA6-59E44F7506DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7CF5201-6B0B-4697-9AA6-59E44F7506DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7CF5201-6B0B-4697-9AA6-59E44F7506DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
