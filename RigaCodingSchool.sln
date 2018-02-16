@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculators", "Calculators\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumbersGuessingGame", "NumbersGuessingGame\NumbersGuessingGame.csproj", "{D7CF5201-6B0B-4697-9AA6-59E44F7506DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoListApp", "ToDoListApp\ToDoListApp.csproj", "{60A48D66-EC03-438B-84B3-D3DF82A8D7C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D7CF5201-6B0B-4697-9AA6-59E44F7506DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7CF5201-6B0B-4697-9AA6-59E44F7506DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7CF5201-6B0B-4697-9AA6-59E44F7506DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60A48D66-EC03-438B-84B3-D3DF82A8D7C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A48D66-EC03-438B-84B3-D3DF82A8D7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A48D66-EC03-438B-84B3-D3DF82A8D7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A48D66-EC03-438B-84B3-D3DF82A8D7C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
