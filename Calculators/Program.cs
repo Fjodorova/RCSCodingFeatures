@@ -21,8 +21,8 @@ namespace Calculators
                 {
                     CalculateCircleArea();
                 }
-                else if (usersInput == "c") ;
-                else if (usersInput == "d") ;
+                else if (usersInput == "c");
+                else if (usersInput == "d");
                 else if (usersInput == "x")
                 {
                     break;

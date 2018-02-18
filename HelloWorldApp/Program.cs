@@ -17,12 +17,9 @@ namespace HelloWorldApp
         static void SayHelloToUser()
         {
             Console.WriteLine("Please enter your name:");
-            string usersName;
-            usersName = Console.ReadLine();
+            string usersName = Console.ReadLine();
             Console.WriteLine("Please enter your age:");
-            string Age;
-            Age = Console.ReadLine();
-            Age = Age + 100;
+            string Age = Console.ReadLine();
             Console.WriteLine("Labdien," + usersName + "Tavs vecums ir:" + Age + "!");
             Console.ReadLine();
         }
@@ -32,7 +29,5 @@ namespace HelloWorldApp
             Console.WriteLine("Hello, World!");
             Console.ReadLine();
         }
-
-        
     }
 }

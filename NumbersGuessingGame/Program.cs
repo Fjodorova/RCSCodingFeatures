@@ -50,7 +50,7 @@ namespace NumbersGuessingGame
 
             Console.WriteLine("I'm thinking of a number between 1 and " + maxNumber + " Can you guess it?");
 
-            for (int numGuesses = 1; numGuesses<=4 && !correct; numGuesses = numGuesses +1)
+            for (int numGuesses = 1; numGuesses <= 4 || !correct; numGuesses = numGuesses + 1); 
             {
                 Console.WriteLine("Your guessing " + numGuesses + " time!");
 
@@ -71,6 +71,11 @@ namespace NumbersGuessingGame
                 else if (guess > returnValue)
                 {
                     Console.WriteLine("No, the number I'm thinking is lower than that number.");
+                }
+
+                else if (numGuesses = 0)
+                {
+                    (Console.WriteLine("You have used all the guesses!");
                 }
 
                 else

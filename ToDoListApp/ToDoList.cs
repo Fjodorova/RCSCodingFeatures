@@ -25,9 +25,12 @@ namespace ToDoListApp
         public void ShowAllToDos()
         {
             //izvelkam pirmo elementu no saraksta izmantojot indekatoru
-            for (int skaitītājs = 0; skaitītājs < toDoEntries.Count; skaitītājs = skaitītājs + 1)
+            //skaitītājs vienāds + 1; it tas pats, kas +=1;
+            //tas pats, kas skaitītājs ++;
+            //i ir saīsinājums no vārda index, intex latviešu valodā nozīmē skaitītājs;
+            for (int i = 0; i < toDoEntries.Count; i ++)
             {
-                Console.WriteLine("Your To Do List entry is:" + toDoEntries[skaitītājs]);
+                Console.WriteLine("Your To Do List entry is:" + toDoEntries[i]);
             }
         }
 
