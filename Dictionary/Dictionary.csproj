@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{60A48D66-EC03-438B-84B3-D3DF82A8D7C7}</ProjectGuid>
+    <ProjectGuid>{A443E1B6-D4C9-4D9C-8C6B-699EF78D2D71}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ToDoListApp</RootNamespace>
-    <AssemblyName>ToDoListApp</AssemblyName>
+    <RootNamespace>Dictionary</RootNamespace>
+    <AssemblyName>Dictionary</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,8 +44,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ToDoList.cs" />
-    <Compile Include="TodoListEntry.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

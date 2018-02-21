@@ -4,6 +4,8 @@ namespace NumbersGuessingGame
 {
     class Program
     {
+        public static string numGuesses { get; private set; }
+
         static void Main(string[] args)
         {
             theGame();
@@ -50,7 +52,7 @@ namespace NumbersGuessingGame
 
             Console.WriteLine("I'm thinking of a number between 1 and " + maxNumber + " Can you guess it?");
 
-            for (int numGuesses = 1; numGuesses <= 4 || !correct; numGuesses = numGuesses + 1); 
+            for (int numGuesses = 1; numGuesses <= 4 || !correct; numGuesses = numGuesses + 1) ;
             {
                 Console.WriteLine("Your guessing " + numGuesses + " time!");
 
@@ -60,10 +62,9 @@ namespace NumbersGuessingGame
                 if (!int.TryParse(input, out guess))
                 {
                     Console.WriteLine("That's not a number.");
-                    continue;
                 }
 
-                if (guess < returnValue)
+                else if (guess < returnValue)
                 {
                     Console.WriteLine("No, the number I'm thinking is higher than that number.");
                 }
@@ -73,23 +74,15 @@ namespace NumbersGuessingGame
                     Console.WriteLine("No, the number I'm thinking is lower than that number.");
                 }
 
-                else if (numGuesses = 0)
-                {
-                    (Console.WriteLine("You have used all the guesses!");
-                }
-
                 else
                 {
                     correct = true;
                     Console.WriteLine("You guessed right!");
                 }
-
             }
         }
 
-    
-
-    static void learning()
+        static void learning()
         {
             Random diceNumberGenetator;
             diceNumberGenetator = new Random();
@@ -99,6 +92,5 @@ namespace NumbersGuessingGame
             Console.WriteLine("Tavs Otra kauliņa metiens" + secondDiceValue);
             Console.ReadLine();
         }
-
     }
 }

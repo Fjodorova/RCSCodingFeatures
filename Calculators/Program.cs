@@ -53,9 +53,11 @@ namespace Calculators
         static void CalculateCircleArea()
         {
             double radius;
-            double result;
             radius = GetNumberFromUser("Lūdzu ievadiet rādiusu:");
+
+            double result;
             result = radius * radius * 3.14;
+
             Console.WriteLine("Rezultāts:" + result);
             Console.ReadLine();
         }
