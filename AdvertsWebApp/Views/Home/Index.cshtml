@@ -1,3 +1,16 @@
-﻿<h2>Ineses Index</h2>
+﻿@model List<AdvertsWebApp.Models.Advert>
 
+<h1>Sludinājumi!</h1>
 
+@foreach (var ad in Model)
+{
+    <p>
+        <a href="/Home/Advert?advertId=@ad.AdvertId">
+            @ad.Name - @ad.Price eur
+        </a>
+       
+    </p>
+
+}
+
+@Html.ActionLink("Pievienot jaunu sludinājumu", "CreateAdvert")

@@ -1,0 +1,30 @@
+﻿@model AdvertsWebApp.Models.Advert
+
+@if (Model == null)
+{
+    <h1> Sludinājums nav atrasts</h1>
+}
+else
+{
+    <h2>Advert</h2>
+    <h3>@Model.Name</h3>
+    <div>
+        <label>Cena</label>
+        <span>@Model.Price</span>
+    </div>
+
+    <div>
+        <label>Izveidošanas laiks: </label>
+        <span>@Model.CreationTime</span>
+    </div>
+
+    <p>@Model.AdvertText</p>
+    <!--
+        <a> href="Home/EditAdvert?advertId=@Model.AdvertId"</a>
+    -->
+    @Html.ActionLink("Rediģēt sludinājumu", "EditAdvert", "Home", new { advertId = Model.AdvertId }, null)
+
+}
+
+
+@Html.ActionLink("Atgriezties atpakaļ pie sludinājumiem", "Index")
